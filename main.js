@@ -54,10 +54,10 @@ const h1 = document.querySelector("#h1");
 //define lightsOut function that activates dark mode 
 const lightsOut = () => {
   //change background to black 
-  main.style.background = "black";
+  main.style.background = "#000000";
  
-  //change h1 text
-  main.style.color = "chartreuse";
+  //change h1 text chartreuse
+  main.style.color = "#DFFF00";
   h1.innerText = "This is Dark Mode  🔦"
   //change text of button
   darkButton.innerText = "Light Mode";
