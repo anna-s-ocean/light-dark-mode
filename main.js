@@ -53,6 +53,12 @@ const h1 = document.querySelector("#h1");
 
 //define lightsOut function that activates dark mode 
 const lightsOut = () => {
+
+  let element = document.body;
+  element.classList.toggle("dark");
+
+
+
   //change background to black 
   main.style.background = "#000000";
  
